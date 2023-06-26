@@ -1,0 +1,17 @@
+package com;
+
+import java.util.Scanner;
+
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		String fecha;
+		
+		fecha = entrada.nextLine();
+		System.out.println("La fecha ingresada es: "+fecha);
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com;
+
+import javax.swing.JOptionPane;
+
+//2. Realiza un programa, el usuario puede introducir una cadena de caracteres y le
+//mostraras de salida cuántos números existen en la cadena.
+//Ejemplo:
+//Entrada : jj@dud324khsa123h12
+//Salida: 8
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		String caracteres;
+		
+		caracteres = JOptionPane.showInputDialog(null, "Ingrese una cadena de caracteres:");
+		System.out.println(caracteres);
+
+	}
+
+}
